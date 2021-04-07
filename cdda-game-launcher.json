@@ -1,6 +1,6 @@
 {
     "version": "1.4.14",
-    "description": " A Cataclysm: Dark Days Ahead launcher with additional features",
+    "description": "A Cataclysm: Dark Days Ahead launcher with additional features",
     "license": "MIT",
     "homepage": "https://github.com/remyroy/CDDA-Game-Launcher",
     "architecture": {
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/remyroy/CDDA-Game-Launcher/releases/download/v${version}/cddagl_installer_v${version}.exe"
+                "url": "https://github.com/remyroy/CDDA-Game-Launcher/releases/download/v$version/cddagl_installer_v$version.exe"
             }
         }
     }
