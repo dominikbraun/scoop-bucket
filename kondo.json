@@ -1,0 +1,21 @@
+{
+    "version": "0.4",
+    "description": "Save disk space by cleaning non-essential files from software projects",
+    "license": "MIT",
+    "homepage": "https://github.com/tbillington/kondo",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tbillington/kondo/releases/download/v0.4/kondo-x86_64-pc-windows-msvc.zip",
+            "hash": "aa66f544eb4b3f2b28358e8c8a93b055d1db303ff76f701d1c5cf0ecadc40024"
+        }
+    },
+    "bin": "kondo.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tbillington/kondo/releases/download/v$version/kondo-x86_64-pc-windows-msvc.zip"
+            }
+        }
+    }
+}
