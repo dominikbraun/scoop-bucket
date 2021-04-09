@@ -1,0 +1,31 @@
+{
+    "version": "0.15.0",
+    "description": "Expressive Programming Language + Versatile Interactive Shell",
+    "license": "BSD-2-Clause",
+    "homepage": "https://github.com/elves/elvish",
+    "architecture": {
+        "32bit": {
+            "url": "https://dl.elv.sh/windows-386/elvish-v0.15.0.exe#/elvish.exe",
+            "hash": "6b1c3eef49ab30aa79724731c6ee6a299ae7d297791d67e3fdce4571bf21ef93"
+        },
+        "64bit": {
+            "url": "https://dl.elv.sh/windows-amd64/elvish-v0.15.0.exe#/elvish.exe",
+            "hash": "67e693a1d6b5fb43546e30dc7af1582e7b02b95b481fcf724284e6d39cbc585b"
+        }
+    },
+    "bin": "elvish.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://dl.elv.sh/windows-386/elvish-v$version.exe#/elvish.exe"
+            },
+            "64bit": {
+                "url": "https://dl.elv.sh/windows-amd64/elvish-v$version.exe#/elvish.exe"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/elvish-v$version.exe.sha256sum"
+        }
+    }
+}
