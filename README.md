@@ -1,5 +1,6 @@
 |name|version|last updated|description|
 |-|-|-|-|
+|[cargo-crev](https://github.com/crev-dev/cargo-crev)|0.19.1|2021/04/09 17:55|A cryptographically verifiable code review system for the cargo (Rust) package manager|
 |[cdda-game-launcher](https://github.com/remyroy/CDDA-Game-Launcher)|1.4.14|2021/04/07 17:39|A Cataclysm: Dark Days Ahead launcher with additional features|
 |[elvish](https://github.com/elves/elvish)|0.15.0|2021/04/09 17:50|Expressive Programming Language + Versatile Interactive Shell|
 |[fend](https://github.com/printfn/fend)|0.1.14|2021/04/08 15:49|Arbitrary-precision unit-aware calculator|
