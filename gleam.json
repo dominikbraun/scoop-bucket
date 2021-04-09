@@ -1,5 +1,5 @@
 {
-    "version": "0.4.14",
+    "version": "0.14.4",
     "description": "A type safe language for the Erlang VM",
     "license": "Apache-2.0",
     "homepage": "https://github.com/gleam-lang/gleam",
