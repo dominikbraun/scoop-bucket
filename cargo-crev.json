@@ -1,13 +1,13 @@
 {
-    "version": "0.19.1",
+    "version": "0.19.2",
     "description": "A cryptographically verifiable code review system for the cargo (Rust) package manager",
     "license": "Apache-2.0",
     "homepage": "https://github.com/crev-dev/cargo-crev",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/crev-dev/cargo-crev/releases/download/v0.19.1/cargo-crev-v0.19.1-x86_64-pc-windows-msvc.tar.gz",
-            "hash": "1b403491ba6fa5475504848e8f87f0fde17e082a34c2d413a5c6caecf6e7fb7a",
-            "extract_dir": "cargo-crev-v0.19.1-x86_64-pc-windows-msvc"
+            "url": "https://github.com/crev-dev/cargo-crev/releases/download/v0.19.2/cargo-crev-v0.19.2-x86_64-pc-windows-msvc.tar.gz",
+            "hash": "e9f9374a895b9b2df4727dcce4361b6b0f7703bd54385c98e3998640ebc937cf",
+            "extract_dir": "cargo-crev-v0.19.2-x86_64-pc-windows-msvc"
         }
     },
     "bin": "cargo-crev.exe",
