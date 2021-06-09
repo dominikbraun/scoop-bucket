@@ -14,4 +14,5 @@
 |[pastel](https://github.com/sharkdp/pastel)|0.8.0|2021/04/08 22:58|A command-line tool to generate, analyze, convert and manipulate colors|
 |[ruplacer](https://github.com/dmerejkowsky/ruplacer)|0.4.1|2021/04/08 23:08| Find and replace text in source files|
 |[ticker](https://github.com/achannarasappa/ticker)|4.2.0|2021/06/09 12:28|Terminal stock ticker with live updates and position tracking|
+|[timetrace](https://github.com/dominikbraun/timetrace)|0.9.0|2021/06/09 12:37|Simple time tracking CLI|
 |[winsw](https://github.com/winsw/winsw)|2.11.0|2021/04/15 18:31|A wrapper executable that can run any executable as a Windows service|
