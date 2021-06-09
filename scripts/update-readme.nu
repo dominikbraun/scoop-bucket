@@ -1,9 +1,9 @@
 ls *.json |
 select name modified |
-each { 
-    let json = $(open $it.name)
-    let name = $(build-string '[' $(echo $it.name | str substring ',-5') '](' $json.homepage ')')
-    let last_updated = $(echo $it.modified | date format '%Y/%m/%d %H:%M')
+each { |file|
+    let json = (open $file.name)
+    let name = (build-string '[' (echo $file.name | str substring ',-5') '](' $json.homepage ')')
+    let last_updated = (echo $file.modified | date format '%Y/%m/%d %H:%M')
 
     echo $json |
     insert name $name |
