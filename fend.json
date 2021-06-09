@@ -1,12 +1,12 @@
 {
-    "version": "0.1.14",
+    "version": "0.1.17",
     "description": "Arbitrary-precision unit-aware calculator",
     "license": "MIT",
     "homepage": "https://github.com/printfn/fend",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/printfn/fend/releases/download/v0.1.14/fend-0.1.14-windows-x64.zip",
-            "hash": "2d8165c5103a570202e4ef9c5da99c1b91fe37971448fad8ca76ae7a2a8c9cb4"
+            "url": "https://github.com/printfn/fend/releases/download/v0.1.17/fend-0.1.17-windows-x64.zip",
+            "hash": "8302d7f39ff495a866e04bb0933301b0bd83f6d8d3608c7c66cfb58f54193c0a"
         }
     },
     "bin": "fend.exe",
